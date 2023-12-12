@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+nav{
+	background-color: #333333;
+	overflow: hidden;
+	width: 100%;
+	
+	
+}
+
+nav .logo{
+	width: 30%;
+	float: left;
+}
+nav .logo a{
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-family: cursive;
+	margin-top: 5px;
+	display: inline-block;
+}
+nav .logo a:hover{
+	color: #FFA500;
+
+}
+
+nav .menu{
+	width: 70%;
+	float: right;
+}
+nav .menu ul{
+	text-align: right;
+}
+nav .menu ul li{
+	display: inline-block;
+
+}
+nav .menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	display: inline-block;
+	transition: 0.6s;
+}
+nav .menu ul li a:hover{
+	color: black;
+	background-color: orange;
+}
+
+.hero{
+	height: 80vh;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('assets/image/bg4.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.hero h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.hero p{
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.hero .btn{
+	text-decoration: none;
+	font-size: 18px;
+	border: 1px solid orange;
+	border-radius: 4px;
+	padding: 10px 20px;
+	color: black;
+	font-weight: bold;
+	background: orange;
+	transition: 0.5s;
+
+}
+.hero .btn:hover{
+	background: white;
+	color: black;
+}
+.icon i{
+	font-size: 30px;
+	margin-top: 100px;
+	padding: 5px;
+
+}
+
+.icon a i{
+	color:white;
+}
+.section{
+	height: auto;
+	width: 100%;
+	margin-bottom: 50px;
+
+}
+.model{
+	display: flex;
+	background: white;
+}
+.text{
+	height: 350px;
+	width: 60%;
+
+}
+.text h2{
+	margin: 60px;
+	border-left: 7px solid red;
+	padding: 8px;
+	font-size: 30px;
+}
+.text p{
+	margin: 10px 50px 30px 50px;
+	text-align: justify;
+	line-height: 25px;
+	margin-bottom: 70px;
+}
+
+.text a{
+	text-decoration: none;
+	font-size: 18px;
+	border: 1px solid orange;
+	border-radius: 4px;
+	margin-left: 7%;
+	padding: 10px 20px;
+	color: black;
+	font-weight: bold;
+	background: orange;
+	transition: 0.5s;;
+
+}
+
+.text a:hover{
+	background: white;
+	color: black;
+}
+
+.model img{
+	height: 100;
+	width: 40%;
+	margin: 75px 15px 50px 10px;
+
+}
+
+.section2{
+	height: auto;
+	width: 100%;
+	background: #F1EFEF;
+}
+
+.team h2{
+/*	margin-top: 100px;*/
+/*	margin: 60px;*/
+	border-left: 7px solid red;
+	padding: 8px;
+	font-size: 30px;
+}
+.another{
+/*	margin-top: 100px;*/
+}
+
+.colig img{
+	height: 150px;
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
